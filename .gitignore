@@ -1,0 +1,21 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.env
+.DS_Store
+*.log
+instance/
+.idea/
+.vscode/
+
+# Generated data — enrolled faces, trained model, and attendance logs
+# are personal/biometric data and should not be committed to git.
+dataset/*
+!dataset/.gitkeep
+trainer/*
+!trainer/.gitkeep
+attendance/*
+!attendance/.gitkeep
